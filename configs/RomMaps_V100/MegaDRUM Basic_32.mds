@@ -1,0 +1,2221 @@
+# MegaDrum config
+
+# Global Misc settings
+global_misc.lcd_contrast = 50
+global_misc.inputs_count = 32
+global_misc.custom_names_en = true
+global_misc.config_names_en = true
+
+#Misc settings
+misc.note_off = 20
+misc.latency = 15
+misc.pressroll = 4
+misc.octave_shift = 2
+misc.all_gains_low = false
+misc.big_vu_meter = true
+misc.big_vu_split = false
+misc.quick_access = false
+misc.alt_false_tr_supp = false
+misc.inputs_priority = true
+misc.midi_thru = false
+misc.send_triggered_in = false
+misc.alt_note_choking = false
+
+#Pedal settings
+pedal.type = true
+pedal.new_algorithm = false
+pedal.autoLevels = true
+pedal.altIn = false
+pedal.reverseLevels = false
+pedal.curve = 0
+pedal.chickDelay = 0
+pedal.cc = 4
+pedal.ccRdcLvl = 1
+pedal.lowLevel = 17
+pedal.highLevel = 337
+pedal.openLevel = 8
+pedal.closedLevel = 100
+pedal.shortThres = 115
+pedal.longThres = 16
+pedal.chickThres = 120
+pedal.hhInput = 2
+pedal.softChicks = false
+pedal.semiOpenLevel = 40
+pedal.halfOpenLevel = 70
+pedal.chickCurve = 0
+pedal.chickPeriodShort = 400
+pedal.chickPeriodLong = 950
+pedal.chickPeriodDead = 1000
+pedal.bowSemiOpenNote = 57
+pedal.edgeSemiOpenNote = 57
+pedal.bellSemiOpenNote = 58
+pedal.bowHalfOpenNote = 55
+pedal.edgeHalfOpenNote = 55
+pedal.bellHalfOpenNote = 58
+pedal.bowSemiClosedNote = 51
+pedal.edgeSemiClosedNote = 52
+pedal.bellSemiClosedNote = 53
+pedal.bowClosedNote = 49
+pedal.edgeClosedNote = 50
+pedal.bellClosedNote = 53
+pedal.chickNote = 48
+pedal.splashNote = 59
+
+#Input 1 settings
+input[1].note = 36
+input[1].channel = 9
+input[1].curve = 0
+input[1].threshold = 30
+input[1].retrigger = 8
+input[1].levelMax = 64
+input[1].minScan = 20
+input[1].type = false
+input[1].autoLevel = true
+input[1].dual = false
+input[1].threeWay = false
+input[1].function = 0
+input[1].gain = 4
+input[1].xtalkLevel = 4
+input[1].xtalkGroup = 0
+input[1].dynTime = 6
+input[1].dynLevel = 12
+input[1].compression = 0
+input[1].shift = 0
+input[1].name = 0
+input[1].altNote = 36
+input[1].pressrollNote = 36
+input[1].altNote_linked = false
+input[1].pressrollNote_linked = false
+
+#Input 1 positional settings
+pos[1].level = 0
+pos[1].low = 5
+pos[1].high = 15
+
+#Input 2 settings
+input[2].note = 49
+input[2].channel = 9
+input[2].curve = 0
+input[2].threshold = 30
+input[2].retrigger = 8
+input[2].levelMax = 64
+input[2].minScan = 20
+input[2].type = false
+input[2].autoLevel = true
+input[2].dual = true
+input[2].threeWay = false
+input[2].function = 0
+input[2].gain = 4
+input[2].xtalkLevel = 4
+input[2].xtalkGroup = 0
+input[2].dynTime = 6
+input[2].dynLevel = 12
+input[2].compression = 0
+input[2].shift = 0
+input[2].name = 0
+input[2].altNote = 49
+input[2].pressrollNote = 49
+input[2].altNote_linked = false
+input[2].pressrollNote_linked = false
+
+#Input 2 positional settings
+pos[2].level = 0
+pos[2].low = 5
+pos[2].high = 15
+
+#Input 3 settings
+input[3].note = 50
+input[3].channel = 9
+input[3].curve = 0
+input[3].threshold = 30
+input[3].retrigger = 8
+input[3].levelMax = 64
+input[3].minScan = 20
+input[3].type = true
+input[3].autoLevel = true
+input[3].dual = false
+input[3].threeWay = false
+input[3].function = 0
+input[3].gain = 4
+input[3].xtalkLevel = 4
+input[3].xtalkGroup = 0
+input[3].dynTime = 6
+input[3].dynLevel = 12
+input[3].compression = 0
+input[3].shift = 0
+input[3].name = 0
+input[3].altNote = 50
+input[3].pressrollNote = 50
+input[3].altNote_linked = false
+input[3].pressrollNote_linked = false
+
+#Input 3 positional settings
+pos[3].level = 0
+pos[3].low = 5
+pos[3].high = 15
+
+#Third zone for intputs 2 and 3 settings
+pad3d_zone[2+3].note = 0
+pad3d_zone[2+3].threshold = 16
+pad3d_zone[2+3].altNote = 0
+pad3d_zone[2+3].pressrollNote = 0
+pad3d_zone[2+3].dampenedNote = 9
+pad3d_zone[2+3].altNote_linked = false
+pad3d_zone[2+3].pressrollNote_linked = false
+
+#Input 4 settings
+input[4].note = 38
+input[4].channel = 9
+input[4].curve = 0
+input[4].threshold = 30
+input[4].retrigger = 8
+input[4].levelMax = 64
+input[4].minScan = 20
+input[4].type = false
+input[4].autoLevel = true
+input[4].dual = true
+input[4].threeWay = false
+input[4].function = 0
+input[4].gain = 4
+input[4].xtalkLevel = 4
+input[4].xtalkGroup = 0
+input[4].dynTime = 6
+input[4].dynLevel = 12
+input[4].compression = 0
+input[4].shift = 0
+input[4].name = 0
+input[4].altNote = 38
+input[4].pressrollNote = 38
+input[4].altNote_linked = false
+input[4].pressrollNote_linked = false
+
+#Input 4 positional settings
+pos[4].level = 0
+pos[4].low = 5
+pos[4].high = 15
+
+#Input 5 settings
+input[5].note = 37
+input[5].channel = 9
+input[5].curve = 0
+input[5].threshold = 30
+input[5].retrigger = 8
+input[5].levelMax = 64
+input[5].minScan = 20
+input[5].type = false
+input[5].autoLevel = true
+input[5].dual = false
+input[5].threeWay = false
+input[5].function = 0
+input[5].gain = 4
+input[5].xtalkLevel = 4
+input[5].xtalkGroup = 0
+input[5].dynTime = 6
+input[5].dynLevel = 12
+input[5].compression = 0
+input[5].shift = 0
+input[5].name = 0
+input[5].altNote = 37
+input[5].pressrollNote = 37
+input[5].altNote_linked = false
+input[5].pressrollNote_linked = false
+
+#Input 5 positional settings
+pos[5].level = 0
+pos[5].low = 5
+pos[5].high = 15
+
+#Third zone for intputs 4 and 5 settings
+pad3d_zone[4+5].note = 41
+pad3d_zone[4+5].threshold = 8
+pad3d_zone[4+5].altNote = 41
+pad3d_zone[4+5].pressrollNote = 41
+pad3d_zone[4+5].dampenedNote = 0
+pad3d_zone[4+5].altNote_linked = false
+pad3d_zone[4+5].pressrollNote_linked = false
+
+#Input 6 settings
+input[6].note = 71
+input[6].channel = 9
+input[6].curve = 0
+input[6].threshold = 30
+input[6].retrigger = 8
+input[6].levelMax = 64
+input[6].minScan = 20
+input[6].type = false
+input[6].autoLevel = true
+input[6].dual = true
+input[6].threeWay = false
+input[6].function = 0
+input[6].gain = 4
+input[6].xtalkLevel = 4
+input[6].xtalkGroup = 0
+input[6].dynTime = 6
+input[6].dynLevel = 12
+input[6].compression = 0
+input[6].shift = 0
+input[6].name = 9
+input[6].altNote = 71
+input[6].pressrollNote = 71
+input[6].altNote_linked = false
+input[6].pressrollNote_linked = false
+
+#Input 6 positional settings
+pos[6].level = 0
+pos[6].low = 5
+pos[6].high = 15
+
+#Input 7 settings
+input[7].note = 72
+input[7].channel = 9
+input[7].curve = 0
+input[7].threshold = 30
+input[7].retrigger = 8
+input[7].levelMax = 64
+input[7].minScan = 20
+input[7].type = false
+input[7].autoLevel = true
+input[7].dual = false
+input[7].threeWay = false
+input[7].function = 0
+input[7].gain = 4
+input[7].xtalkLevel = 4
+input[7].xtalkGroup = 0
+input[7].dynTime = 6
+input[7].dynLevel = 12
+input[7].compression = 0
+input[7].shift = 0
+input[7].name = 9
+input[7].altNote = 72
+input[7].pressrollNote = 72
+input[7].altNote_linked = false
+input[7].pressrollNote_linked = false
+
+#Input 7 positional settings
+pos[7].level = 0
+pos[7].low = 5
+pos[7].high = 15
+
+#Third zone for intputs 6 and 7 settings
+pad3d_zone[6+7].note = 0
+pad3d_zone[6+7].threshold = 8
+pad3d_zone[6+7].altNote = 0
+pad3d_zone[6+7].pressrollNote = 0
+pad3d_zone[6+7].dampenedNote = 0
+pad3d_zone[6+7].altNote_linked = false
+pad3d_zone[6+7].pressrollNote_linked = false
+
+#Input 8 settings
+input[8].note = 69
+input[8].channel = 9
+input[8].curve = 0
+input[8].threshold = 30
+input[8].retrigger = 8
+input[8].levelMax = 64
+input[8].minScan = 20
+input[8].type = false
+input[8].autoLevel = true
+input[8].dual = true
+input[8].threeWay = false
+input[8].function = 0
+input[8].gain = 4
+input[8].xtalkLevel = 4
+input[8].xtalkGroup = 0
+input[8].dynTime = 6
+input[8].dynLevel = 12
+input[8].compression = 0
+input[8].shift = 0
+input[8].name = 10
+input[8].altNote = 69
+input[8].pressrollNote = 69
+input[8].altNote_linked = false
+input[8].pressrollNote_linked = false
+
+#Input 8 positional settings
+pos[8].level = 0
+pos[8].low = 5
+pos[8].high = 15
+
+#Input 9 settings
+input[9].note = 70
+input[9].channel = 9
+input[9].curve = 0
+input[9].threshold = 30
+input[9].retrigger = 8
+input[9].levelMax = 64
+input[9].minScan = 20
+input[9].type = false
+input[9].autoLevel = true
+input[9].dual = false
+input[9].threeWay = false
+input[9].function = 0
+input[9].gain = 4
+input[9].xtalkLevel = 4
+input[9].xtalkGroup = 0
+input[9].dynTime = 6
+input[9].dynLevel = 12
+input[9].compression = 0
+input[9].shift = 0
+input[9].name = 10
+input[9].altNote = 70
+input[9].pressrollNote = 70
+input[9].altNote_linked = false
+input[9].pressrollNote_linked = false
+
+#Input 9 positional settings
+pos[9].level = 0
+pos[9].low = 5
+pos[9].high = 15
+
+#Third zone for intputs 8 and 9 settings
+pad3d_zone[8+9].note = 0
+pad3d_zone[8+9].threshold = 24
+pad3d_zone[8+9].altNote = 0
+pad3d_zone[8+9].pressrollNote = 0
+pad3d_zone[8+9].dampenedNote = 0
+pad3d_zone[8+9].altNote_linked = false
+pad3d_zone[8+9].pressrollNote_linked = false
+
+#Input 10 settings
+input[10].note = 67
+input[10].channel = 9
+input[10].curve = 0
+input[10].threshold = 30
+input[10].retrigger = 8
+input[10].levelMax = 64
+input[10].minScan = 20
+input[10].type = false
+input[10].autoLevel = true
+input[10].dual = true
+input[10].threeWay = false
+input[10].function = 0
+input[10].gain = 4
+input[10].xtalkLevel = 4
+input[10].xtalkGroup = 0
+input[10].dynTime = 6
+input[10].dynLevel = 12
+input[10].compression = 0
+input[10].shift = 0
+input[10].name = 11
+input[10].altNote = 67
+input[10].pressrollNote = 67
+input[10].altNote_linked = false
+input[10].pressrollNote_linked = false
+
+#Input 10 positional settings
+pos[10].level = 0
+pos[10].low = 5
+pos[10].high = 15
+
+#Input 11 settings
+input[11].note = 68
+input[11].channel = 9
+input[11].curve = 0
+input[11].threshold = 30
+input[11].retrigger = 8
+input[11].levelMax = 64
+input[11].minScan = 20
+input[11].type = false
+input[11].autoLevel = true
+input[11].dual = false
+input[11].threeWay = false
+input[11].function = 0
+input[11].gain = 4
+input[11].xtalkLevel = 4
+input[11].xtalkGroup = 0
+input[11].dynTime = 6
+input[11].dynLevel = 12
+input[11].compression = 0
+input[11].shift = 0
+input[11].name = 11
+input[11].altNote = 68
+input[11].pressrollNote = 68
+input[11].altNote_linked = false
+input[11].pressrollNote_linked = false
+
+#Input 11 positional settings
+pos[11].level = 0
+pos[11].low = 5
+pos[11].high = 15
+
+#Third zone for intputs 10 and 11 settings
+pad3d_zone[10+11].note = 0
+pad3d_zone[10+11].threshold = 24
+pad3d_zone[10+11].altNote = 0
+pad3d_zone[10+11].pressrollNote = 0
+pad3d_zone[10+11].dampenedNote = 0
+pad3d_zone[10+11].altNote_linked = false
+pad3d_zone[10+11].pressrollNote_linked = false
+
+#Input 12 settings
+input[12].note = 65
+input[12].channel = 9
+input[12].curve = 0
+input[12].threshold = 30
+input[12].retrigger = 8
+input[12].levelMax = 64
+input[12].minScan = 20
+input[12].type = false
+input[12].autoLevel = true
+input[12].dual = true
+input[12].threeWay = false
+input[12].function = 0
+input[12].gain = 4
+input[12].xtalkLevel = 4
+input[12].xtalkGroup = 0
+input[12].dynTime = 6
+input[12].dynLevel = 12
+input[12].compression = 0
+input[12].shift = 0
+input[12].name = 12
+input[12].altNote = 65
+input[12].pressrollNote = 65
+input[12].altNote_linked = false
+input[12].pressrollNote_linked = false
+
+#Input 12 positional settings
+pos[12].level = 0
+pos[12].low = 5
+pos[12].high = 15
+
+#Input 13 settings
+input[13].note = 66
+input[13].channel = 9
+input[13].curve = 0
+input[13].threshold = 30
+input[13].retrigger = 8
+input[13].levelMax = 64
+input[13].minScan = 20
+input[13].type = false
+input[13].autoLevel = true
+input[13].dual = false
+input[13].threeWay = false
+input[13].function = 0
+input[13].gain = 4
+input[13].xtalkLevel = 4
+input[13].xtalkGroup = 0
+input[13].dynTime = 6
+input[13].dynLevel = 12
+input[13].compression = 0
+input[13].shift = 0
+input[13].name = 12
+input[13].altNote = 66
+input[13].pressrollNote = 66
+input[13].altNote_linked = false
+input[13].pressrollNote_linked = false
+
+#Input 13 positional settings
+pos[13].level = 0
+pos[13].low = 5
+pos[13].high = 15
+
+#Third zone for intputs 12 and 13 settings
+pad3d_zone[12+13].note = 0
+pad3d_zone[12+13].threshold = 24
+pad3d_zone[12+13].altNote = 0
+pad3d_zone[12+13].pressrollNote = 0
+pad3d_zone[12+13].dampenedNote = 0
+pad3d_zone[12+13].altNote_linked = false
+pad3d_zone[12+13].pressrollNote_linked = false
+
+#Input 14 settings
+input[14].note = 77
+input[14].channel = 9
+input[14].curve = 0
+input[14].threshold = 30
+input[14].retrigger = 8
+input[14].levelMax = 64
+input[14].minScan = 20
+input[14].type = false
+input[14].autoLevel = true
+input[14].dual = false
+input[14].threeWay = false
+input[14].function = 0
+input[14].gain = 4
+input[14].xtalkLevel = 4
+input[14].xtalkGroup = 0
+input[14].dynTime = 6
+input[14].dynLevel = 12
+input[14].compression = 0
+input[14].shift = 0
+input[14].name = 73
+input[14].altNote = 77
+input[14].pressrollNote = 77
+input[14].altNote_linked = false
+input[14].pressrollNote_linked = false
+
+#Input 14 positional settings
+pos[14].level = 0
+pos[14].low = 5
+pos[14].high = 15
+
+#Input 15 settings
+input[15].note = 0
+input[15].channel = 9
+input[15].curve = 0
+input[15].threshold = 30
+input[15].retrigger = 8
+input[15].levelMax = 64
+input[15].minScan = 20
+input[15].type = false
+input[15].autoLevel = true
+input[15].dual = false
+input[15].threeWay = false
+input[15].function = 0
+input[15].gain = 4
+input[15].xtalkLevel = 4
+input[15].xtalkGroup = 0
+input[15].dynTime = 6
+input[15].dynLevel = 12
+input[15].compression = 0
+input[15].shift = 0
+input[15].name = 73
+input[15].altNote = 0
+input[15].pressrollNote = 0
+input[15].altNote_linked = false
+input[15].pressrollNote_linked = false
+
+#Input 15 positional settings
+pos[15].level = 0
+pos[15].low = 5
+pos[15].high = 15
+
+#Third zone for intputs 14 and 15 settings
+pad3d_zone[14+15].note = 0
+pad3d_zone[14+15].threshold = 0
+pad3d_zone[14+15].altNote = 0
+pad3d_zone[14+15].pressrollNote = 0
+pad3d_zone[14+15].dampenedNote = 0
+pad3d_zone[14+15].altNote_linked = false
+pad3d_zone[14+15].pressrollNote_linked = false
+
+#Input 16 settings
+input[16].note = 79
+input[16].channel = 9
+input[16].curve = 0
+input[16].threshold = 30
+input[16].retrigger = 8
+input[16].levelMax = 64
+input[16].minScan = 20
+input[16].type = false
+input[16].autoLevel = true
+input[16].dual = false
+input[16].threeWay = false
+input[16].function = 0
+input[16].gain = 4
+input[16].xtalkLevel = 4
+input[16].xtalkGroup = 0
+input[16].dynTime = 6
+input[16].dynLevel = 12
+input[16].compression = 0
+input[16].shift = 1
+input[16].name = 74
+input[16].altNote = 79
+input[16].pressrollNote = 79
+input[16].altNote_linked = false
+input[16].pressrollNote_linked = false
+
+#Input 16 positional settings
+pos[16].level = 0
+pos[16].low = 5
+pos[16].high = 15
+
+#Input 17 settings
+input[17].note = 0
+input[17].channel = 9
+input[17].curve = 0
+input[17].threshold = 30
+input[17].retrigger = 8
+input[17].levelMax = 64
+input[17].minScan = 20
+input[17].type = false
+input[17].autoLevel = true
+input[17].dual = false
+input[17].threeWay = false
+input[17].function = 0
+input[17].gain = 4
+input[17].xtalkLevel = 4
+input[17].xtalkGroup = 0
+input[17].dynTime = 6
+input[17].dynLevel = 12
+input[17].compression = 0
+input[17].shift = 1
+input[17].name = 74
+input[17].altNote = 0
+input[17].pressrollNote = 0
+input[17].altNote_linked = false
+input[17].pressrollNote_linked = false
+
+#Input 17 positional settings
+pos[17].level = 0
+pos[17].low = 5
+pos[17].high = 15
+
+#Third zone for intputs 16 and 17 settings
+pad3d_zone[16+17].note = 0
+pad3d_zone[16+17].threshold = 30
+pad3d_zone[16+17].altNote = 0
+pad3d_zone[16+17].pressrollNote = 0
+pad3d_zone[16+17].dampenedNote = 0
+pad3d_zone[16+17].altNote_linked = false
+pad3d_zone[16+17].pressrollNote_linked = false
+
+#Input 18 settings
+input[18].note = 81
+input[18].channel = 9
+input[18].curve = 0
+input[18].threshold = 30
+input[18].retrigger = 8
+input[18].levelMax = 64
+input[18].minScan = 20
+input[18].type = false
+input[18].autoLevel = true
+input[18].dual = false
+input[18].threeWay = false
+input[18].function = 0
+input[18].gain = 4
+input[18].xtalkLevel = 4
+input[18].xtalkGroup = 0
+input[18].dynTime = 6
+input[18].dynLevel = 12
+input[18].compression = 0
+input[18].shift = 1
+input[18].name = 75
+input[18].altNote = 81
+input[18].pressrollNote = 81
+input[18].altNote_linked = false
+input[18].pressrollNote_linked = false
+
+#Input 18 positional settings
+pos[18].level = 0
+pos[18].low = 5
+pos[18].high = 15
+
+#Input 19 settings
+input[19].note = 0
+input[19].channel = 9
+input[19].curve = 0
+input[19].threshold = 30
+input[19].retrigger = 8
+input[19].levelMax = 64
+input[19].minScan = 20
+input[19].type = false
+input[19].autoLevel = true
+input[19].dual = false
+input[19].threeWay = false
+input[19].function = 0
+input[19].gain = 4
+input[19].xtalkLevel = 4
+input[19].xtalkGroup = 0
+input[19].dynTime = 6
+input[19].dynLevel = 12
+input[19].compression = 0
+input[19].shift = 1
+input[19].name = 75
+input[19].altNote = 0
+input[19].pressrollNote = 0
+input[19].altNote_linked = false
+input[19].pressrollNote_linked = false
+
+#Input 19 positional settings
+pos[19].level = 0
+pos[19].low = 5
+pos[19].high = 15
+
+#Third zone for intputs 18 and 19 settings
+pad3d_zone[18+19].note = 0
+pad3d_zone[18+19].threshold = 30
+pad3d_zone[18+19].altNote = 0
+pad3d_zone[18+19].pressrollNote = 0
+pad3d_zone[18+19].dampenedNote = 0
+pad3d_zone[18+19].altNote_linked = false
+pad3d_zone[18+19].pressrollNote_linked = false
+
+#Input 20 settings
+input[20].note = 60
+input[20].channel = 9
+input[20].curve = 0
+input[20].threshold = 30
+input[20].retrigger = 8
+input[20].levelMax = 64
+input[20].minScan = 20
+input[20].type = false
+input[20].autoLevel = true
+input[20].dual = false
+input[20].threeWay = true
+input[20].function = 0
+input[20].gain = 4
+input[20].xtalkLevel = 4
+input[20].xtalkGroup = 0
+input[20].dynTime = 6
+input[20].dynLevel = 12
+input[20].compression = 0
+input[20].shift = 0
+input[20].name = 5
+input[20].altNote = 60
+input[20].pressrollNote = 60
+input[20].altNote_linked = false
+input[20].pressrollNote_linked = false
+
+#Input 20 positional settings
+pos[20].level = 0
+pos[20].low = 5
+pos[20].high = 15
+
+#Input 21 settings
+input[21].note = 62
+input[21].channel = 9
+input[21].curve = 0
+input[21].threshold = 30
+input[21].retrigger = 8
+input[21].levelMax = 64
+input[21].minScan = 20
+input[21].type = true
+input[21].autoLevel = true
+input[21].dual = false
+input[21].threeWay = false
+input[21].function = 0
+input[21].gain = 4
+input[21].xtalkLevel = 4
+input[21].xtalkGroup = 0
+input[21].dynTime = 6
+input[21].dynLevel = 12
+input[21].compression = 0
+input[21].shift = 0
+input[21].name = 5
+input[21].altNote = 62
+input[21].pressrollNote = 62
+input[21].altNote_linked = false
+input[21].pressrollNote_linked = false
+
+#Input 21 positional settings
+pos[21].level = 0
+pos[21].low = 5
+pos[21].high = 15
+
+#Third zone for intputs 20 and 21 settings
+pad3d_zone[20+21].note = 0
+pad3d_zone[20+21].threshold = 30
+pad3d_zone[20+21].altNote = 0
+pad3d_zone[20+21].pressrollNote = 0
+pad3d_zone[20+21].dampenedNote = 63
+pad3d_zone[20+21].altNote_linked = false
+pad3d_zone[20+21].pressrollNote_linked = false
+
+#Input 22 settings
+input[22].note = 0
+input[22].channel = 9
+input[22].curve = 0
+input[22].threshold = 30
+input[22].retrigger = 8
+input[22].levelMax = 64
+input[22].minScan = 20
+input[22].type = false
+input[22].autoLevel = true
+input[22].dual = true
+input[22].threeWay = false
+input[22].function = 0
+input[22].gain = 4
+input[22].xtalkLevel = 4
+input[22].xtalkGroup = 0
+input[22].dynTime = 6
+input[22].dynLevel = 12
+input[22].compression = 0
+input[22].shift = 0
+input[22].name = 5
+input[22].altNote = 0
+input[22].pressrollNote = 0
+input[22].altNote_linked = false
+input[22].pressrollNote_linked = false
+
+#Input 22 positional settings
+pos[22].level = 1
+pos[22].low = 4
+pos[22].high = 18
+
+#Input 23 settings
+input[23].note = 61
+input[23].channel = 9
+input[23].curve = 0
+input[23].threshold = 30
+input[23].retrigger = 8
+input[23].levelMax = 64
+input[23].minScan = 20
+input[23].type = true
+input[23].autoLevel = true
+input[23].dual = false
+input[23].threeWay = false
+input[23].function = 0
+input[23].gain = 4
+input[23].xtalkLevel = 4
+input[23].xtalkGroup = 0
+input[23].dynTime = 6
+input[23].dynLevel = 12
+input[23].compression = 0
+input[23].shift = 0
+input[23].name = 5
+input[23].altNote = 61
+input[23].pressrollNote = 61
+input[23].altNote_linked = false
+input[23].pressrollNote_linked = false
+
+#Input 23 positional settings
+pos[23].level = 1
+pos[23].low = 4
+pos[23].high = 16
+
+#Third zone for intputs 22 and 23 settings
+pad3d_zone[22+23].note = 0
+pad3d_zone[22+23].threshold = 0
+pad3d_zone[22+23].altNote = 0
+pad3d_zone[22+23].pressrollNote = 0
+pad3d_zone[22+23].dampenedNote = 0
+pad3d_zone[22+23].altNote_linked = false
+pad3d_zone[22+23].pressrollNote_linked = false
+
+#Input 24 settings
+input[24].note = 47
+input[24].channel = 9
+input[24].curve = 0
+input[24].threshold = 30
+input[24].retrigger = 8
+input[24].levelMax = 64
+input[24].minScan = 20
+input[24].type = false
+input[24].autoLevel = true
+input[24].dual = false
+input[24].threeWay = false
+input[24].function = 0
+input[24].gain = 4
+input[24].xtalkLevel = 4
+input[24].xtalkGroup = 0
+input[24].dynTime = 6
+input[24].dynLevel = 12
+input[24].compression = 0
+input[24].shift = 0
+input[24].name = 81
+input[24].altNote = 47
+input[24].pressrollNote = 47
+input[24].altNote_linked = false
+input[24].pressrollNote_linked = false
+
+#Input 24 positional settings
+pos[24].level = 0
+pos[24].low = 5
+pos[24].high = 15
+
+#Input 25 settings
+input[25].note = 0
+input[25].channel = 9
+input[25].curve = 0
+input[25].threshold = 30
+input[25].retrigger = 8
+input[25].levelMax = 64
+input[25].minScan = 20
+input[25].type = false
+input[25].autoLevel = true
+input[25].dual = false
+input[25].threeWay = false
+input[25].function = 0
+input[25].gain = 4
+input[25].xtalkLevel = 4
+input[25].xtalkGroup = 0
+input[25].dynTime = 6
+input[25].dynLevel = 12
+input[25].compression = 0
+input[25].shift = 0
+input[25].name = 81
+input[25].altNote = 0
+input[25].pressrollNote = 0
+input[25].altNote_linked = false
+input[25].pressrollNote_linked = false
+
+#Input 25 positional settings
+pos[25].level = 0
+pos[25].low = 5
+pos[25].high = 15
+
+#Third zone for intputs 24 and 25 settings
+pad3d_zone[24+25].note = 0
+pad3d_zone[24+25].threshold = 30
+pad3d_zone[24+25].altNote = 0
+pad3d_zone[24+25].pressrollNote = 0
+pad3d_zone[24+25].dampenedNote = 0
+pad3d_zone[24+25].altNote_linked = false
+pad3d_zone[24+25].pressrollNote_linked = false
+
+#Input 26 settings
+input[26].note = 0
+input[26].channel = 9
+input[26].curve = 0
+input[26].threshold = 30
+input[26].retrigger = 8
+input[26].levelMax = 64
+input[26].minScan = 20
+input[26].type = false
+input[26].autoLevel = true
+input[26].dual = false
+input[26].threeWay = false
+input[26].function = 0
+input[26].gain = 4
+input[26].xtalkLevel = 4
+input[26].xtalkGroup = 0
+input[26].dynTime = 6
+input[26].dynLevel = 12
+input[26].compression = 0
+input[26].shift = 0
+input[26].name = 0
+input[26].altNote = 0
+input[26].pressrollNote = 0
+input[26].altNote_linked = false
+input[26].pressrollNote_linked = false
+
+#Input 26 positional settings
+pos[26].level = 0
+pos[26].low = 5
+pos[26].high = 15
+
+#Input 27 settings
+input[27].note = 0
+input[27].channel = 9
+input[27].curve = 0
+input[27].threshold = 30
+input[27].retrigger = 8
+input[27].levelMax = 64
+input[27].minScan = 20
+input[27].type = false
+input[27].autoLevel = true
+input[27].dual = false
+input[27].threeWay = false
+input[27].function = 0
+input[27].gain = 4
+input[27].xtalkLevel = 4
+input[27].xtalkGroup = 0
+input[27].dynTime = 6
+input[27].dynLevel = 12
+input[27].compression = 0
+input[27].shift = 0
+input[27].name = 0
+input[27].altNote = 0
+input[27].pressrollNote = 0
+input[27].altNote_linked = false
+input[27].pressrollNote_linked = false
+
+#Input 27 positional settings
+pos[27].level = 0
+pos[27].low = 5
+pos[27].high = 15
+
+#Third zone for intputs 26 and 27 settings
+pad3d_zone[26+27].note = 0
+pad3d_zone[26+27].threshold = 30
+pad3d_zone[26+27].altNote = 0
+pad3d_zone[26+27].pressrollNote = 0
+pad3d_zone[26+27].dampenedNote = 0
+pad3d_zone[26+27].altNote_linked = false
+pad3d_zone[26+27].pressrollNote_linked = false
+
+#Input 28 settings
+input[28].note = 0
+input[28].channel = 9
+input[28].curve = 0
+input[28].threshold = 30
+input[28].retrigger = 8
+input[28].levelMax = 64
+input[28].minScan = 20
+input[28].type = false
+input[28].autoLevel = true
+input[28].dual = false
+input[28].threeWay = false
+input[28].function = 0
+input[28].gain = 4
+input[28].xtalkLevel = 4
+input[28].xtalkGroup = 0
+input[28].dynTime = 6
+input[28].dynLevel = 12
+input[28].compression = 0
+input[28].shift = 0
+input[28].name = 0
+input[28].altNote = 0
+input[28].pressrollNote = 0
+input[28].altNote_linked = false
+input[28].pressrollNote_linked = false
+
+#Input 28 positional settings
+pos[28].level = 0
+pos[28].low = 5
+pos[28].high = 15
+
+#Input 29 settings
+input[29].note = 0
+input[29].channel = 9
+input[29].curve = 0
+input[29].threshold = 30
+input[29].retrigger = 8
+input[29].levelMax = 64
+input[29].minScan = 20
+input[29].type = false
+input[29].autoLevel = true
+input[29].dual = false
+input[29].threeWay = false
+input[29].function = 0
+input[29].gain = 4
+input[29].xtalkLevel = 4
+input[29].xtalkGroup = 0
+input[29].dynTime = 6
+input[29].dynLevel = 12
+input[29].compression = 0
+input[29].shift = 0
+input[29].name = 0
+input[29].altNote = 0
+input[29].pressrollNote = 0
+input[29].altNote_linked = false
+input[29].pressrollNote_linked = false
+
+#Input 29 positional settings
+pos[29].level = 0
+pos[29].low = 5
+pos[29].high = 15
+
+#Third zone for intputs 28 and 29 settings
+pad3d_zone[28+29].note = 0
+pad3d_zone[28+29].threshold = 0
+pad3d_zone[28+29].altNote = 0
+pad3d_zone[28+29].pressrollNote = 0
+pad3d_zone[28+29].dampenedNote = 0
+pad3d_zone[28+29].altNote_linked = false
+pad3d_zone[28+29].pressrollNote_linked = false
+
+#Input 30 settings
+input[30].note = 0
+input[30].channel = 9
+input[30].curve = 0
+input[30].threshold = 30
+input[30].retrigger = 8
+input[30].levelMax = 64
+input[30].minScan = 20
+input[30].type = false
+input[30].autoLevel = true
+input[30].dual = false
+input[30].threeWay = false
+input[30].function = 0
+input[30].gain = 4
+input[30].xtalkLevel = 4
+input[30].xtalkGroup = 0
+input[30].dynTime = 6
+input[30].dynLevel = 12
+input[30].compression = 0
+input[30].shift = 0
+input[30].name = 0
+input[30].altNote = 0
+input[30].pressrollNote = 0
+input[30].altNote_linked = false
+input[30].pressrollNote_linked = false
+
+#Input 30 positional settings
+pos[30].level = 0
+pos[30].low = 5
+pos[30].high = 15
+
+#Input 31 settings
+input[31].note = 0
+input[31].channel = 9
+input[31].curve = 0
+input[31].threshold = 30
+input[31].retrigger = 8
+input[31].levelMax = 64
+input[31].minScan = 20
+input[31].type = false
+input[31].autoLevel = true
+input[31].dual = false
+input[31].threeWay = false
+input[31].function = 0
+input[31].gain = 4
+input[31].xtalkLevel = 4
+input[31].xtalkGroup = 0
+input[31].dynTime = 6
+input[31].dynLevel = 12
+input[31].compression = 0
+input[31].shift = 0
+input[31].name = 0
+input[31].altNote = 0
+input[31].pressrollNote = 0
+input[31].altNote_linked = false
+input[31].pressrollNote_linked = false
+
+#Input 31 positional settings
+pos[31].level = 0
+pos[31].low = 5
+pos[31].high = 15
+
+#Third zone for intputs 30 and 31 settings
+pad3d_zone[30+31].note = 0
+pad3d_zone[30+31].threshold = 30
+pad3d_zone[30+31].altNote = 0
+pad3d_zone[30+31].pressrollNote = 0
+pad3d_zone[30+31].dampenedNote = 0
+pad3d_zone[30+31].altNote_linked = false
+pad3d_zone[30+31].pressrollNote_linked = false
+
+#Input 32 settings
+input[32].note = 0
+input[32].channel = 9
+input[32].curve = 0
+input[32].threshold = 30
+input[32].retrigger = 8
+input[32].levelMax = 64
+input[32].minScan = 20
+input[32].type = false
+input[32].autoLevel = true
+input[32].dual = true
+input[32].threeWay = false
+input[32].function = 0
+input[32].gain = 4
+input[32].xtalkLevel = 4
+input[32].xtalkGroup = 0
+input[32].dynTime = 6
+input[32].dynLevel = 12
+input[32].compression = 0
+input[32].shift = 0
+input[32].name = 6
+input[32].altNote = 0
+input[32].pressrollNote = 0
+input[32].altNote_linked = false
+input[32].pressrollNote_linked = false
+
+#Input 32 positional settings
+pos[32].level = 0
+pos[32].low = 5
+pos[32].high = 15
+
+#Input 33 settings
+input[33].note = 85
+input[33].channel = 9
+input[33].curve = 0
+input[33].threshold = 30
+input[33].retrigger = 8
+input[33].levelMax = 64
+input[33].minScan = 20
+input[33].type = true
+input[33].autoLevel = true
+input[33].dual = false
+input[33].threeWay = false
+input[33].function = 0
+input[33].gain = 4
+input[33].xtalkLevel = 4
+input[33].xtalkGroup = 0
+input[33].dynTime = 6
+input[33].dynLevel = 12
+input[33].compression = 0
+input[33].shift = 0
+input[33].name = 6
+input[33].altNote = 0
+input[33].pressrollNote = 0
+input[33].altNote_linked = false
+input[33].pressrollNote_linked = false
+
+#Input 33 positional settings
+pos[33].level = 0
+pos[33].low = 5
+pos[33].high = 15
+
+#Third zone for intputs 32 and 33 settings
+pad3d_zone[32+33].note = 0
+pad3d_zone[32+33].threshold = 30
+pad3d_zone[32+33].altNote = 0
+pad3d_zone[32+33].pressrollNote = 0
+pad3d_zone[32+33].dampenedNote = 0
+pad3d_zone[32+33].altNote_linked = false
+pad3d_zone[32+33].pressrollNote_linked = false
+
+#Input 34 settings
+input[34].note = 47
+input[34].channel = 9
+input[34].curve = 0
+input[34].threshold = 30
+input[34].retrigger = 8
+input[34].levelMax = 64
+input[34].minScan = 20
+input[34].type = false
+input[34].autoLevel = true
+input[34].dual = false
+input[34].threeWay = false
+input[34].function = 0
+input[34].gain = 4
+input[34].xtalkLevel = 4
+input[34].xtalkGroup = 0
+input[34].dynTime = 6
+input[34].dynLevel = 12
+input[34].compression = 0
+input[34].shift = 0
+input[34].name = 81
+input[34].altNote = 0
+input[34].pressrollNote = 0
+input[34].altNote_linked = false
+input[34].pressrollNote_linked = false
+
+#Input 34 positional settings
+pos[34].level = 0
+pos[34].low = 5
+pos[34].high = 15
+
+#Input 35 settings
+input[35].note = 0
+input[35].channel = 9
+input[35].curve = 0
+input[35].threshold = 30
+input[35].retrigger = 8
+input[35].levelMax = 64
+input[35].minScan = 20
+input[35].type = false
+input[35].autoLevel = true
+input[35].dual = false
+input[35].threeWay = false
+input[35].function = 0
+input[35].gain = 4
+input[35].xtalkLevel = 4
+input[35].xtalkGroup = 0
+input[35].dynTime = 6
+input[35].dynLevel = 12
+input[35].compression = 0
+input[35].shift = 0
+input[35].name = 81
+input[35].altNote = 0
+input[35].pressrollNote = 0
+input[35].altNote_linked = false
+input[35].pressrollNote_linked = false
+
+#Input 35 positional settings
+pos[35].level = 0
+pos[35].low = 5
+pos[35].high = 15
+
+#Third zone for intputs 34 and 35 settings
+pad3d_zone[34+35].note = 0
+pad3d_zone[34+35].threshold = 30
+pad3d_zone[34+35].altNote = 0
+pad3d_zone[34+35].pressrollNote = 0
+pad3d_zone[34+35].dampenedNote = 0
+pad3d_zone[34+35].altNote_linked = false
+pad3d_zone[34+35].pressrollNote_linked = false
+
+#Input 36 settings
+input[36].note = 96
+input[36].channel = 9
+input[36].curve = 0
+input[36].threshold = 30
+input[36].retrigger = 8
+input[36].levelMax = 64
+input[36].minScan = 20
+input[36].type = false
+input[36].autoLevel = true
+input[36].dual = false
+input[36].threeWay = false
+input[36].function = 0
+input[36].gain = 4
+input[36].xtalkLevel = 4
+input[36].xtalkGroup = 0
+input[36].dynTime = 6
+input[36].dynLevel = 12
+input[36].compression = 0
+input[36].shift = 0
+input[36].name = 82
+input[36].altNote = 0
+input[36].pressrollNote = 0
+input[36].altNote_linked = false
+input[36].pressrollNote_linked = false
+
+#Input 36 positional settings
+pos[36].level = 0
+pos[36].low = 5
+pos[36].high = 15
+
+#Input 37 settings
+input[37].note = 0
+input[37].channel = 9
+input[37].curve = 0
+input[37].threshold = 30
+input[37].retrigger = 8
+input[37].levelMax = 64
+input[37].minScan = 20
+input[37].type = false
+input[37].autoLevel = true
+input[37].dual = false
+input[37].threeWay = false
+input[37].function = 0
+input[37].gain = 4
+input[37].xtalkLevel = 4
+input[37].xtalkGroup = 0
+input[37].dynTime = 6
+input[37].dynLevel = 12
+input[37].compression = 0
+input[37].shift = 0
+input[37].name = 82
+input[37].altNote = 0
+input[37].pressrollNote = 0
+input[37].altNote_linked = false
+input[37].pressrollNote_linked = false
+
+#Input 37 positional settings
+pos[37].level = 0
+pos[37].low = 5
+pos[37].high = 15
+
+#Third zone for intputs 36 and 37 settings
+pad3d_zone[36+37].note = 0
+pad3d_zone[36+37].threshold = 30
+pad3d_zone[36+37].altNote = 0
+pad3d_zone[36+37].pressrollNote = 0
+pad3d_zone[36+37].dampenedNote = 0
+pad3d_zone[36+37].altNote_linked = false
+pad3d_zone[36+37].pressrollNote_linked = false
+
+#Input 38 settings
+input[38].note = 100
+input[38].channel = 9
+input[38].curve = 0
+input[38].threshold = 30
+input[38].retrigger = 8
+input[38].levelMax = 64
+input[38].minScan = 20
+input[38].type = false
+input[38].autoLevel = true
+input[38].dual = false
+input[38].threeWay = false
+input[38].function = 0
+input[38].gain = 4
+input[38].xtalkLevel = 4
+input[38].xtalkGroup = 0
+input[38].dynTime = 6
+input[38].dynLevel = 12
+input[38].compression = 0
+input[38].shift = 0
+input[38].name = 83
+input[38].altNote = 0
+input[38].pressrollNote = 0
+input[38].altNote_linked = false
+input[38].pressrollNote_linked = false
+
+#Input 38 positional settings
+pos[38].level = 0
+pos[38].low = 5
+pos[38].high = 15
+
+#Input 39 settings
+input[39].note = 0
+input[39].channel = 9
+input[39].curve = 0
+input[39].threshold = 30
+input[39].retrigger = 8
+input[39].levelMax = 64
+input[39].minScan = 20
+input[39].type = false
+input[39].autoLevel = true
+input[39].dual = false
+input[39].threeWay = false
+input[39].function = 0
+input[39].gain = 4
+input[39].xtalkLevel = 4
+input[39].xtalkGroup = 0
+input[39].dynTime = 6
+input[39].dynLevel = 12
+input[39].compression = 0
+input[39].shift = 0
+input[39].name = 83
+input[39].altNote = 0
+input[39].pressrollNote = 0
+input[39].altNote_linked = false
+input[39].pressrollNote_linked = false
+
+#Input 39 positional settings
+pos[39].level = 0
+pos[39].low = 5
+pos[39].high = 15
+
+#Third zone for intputs 38 and 39 settings
+pad3d_zone[38+39].note = 0
+pad3d_zone[38+39].threshold = 30
+pad3d_zone[38+39].altNote = 0
+pad3d_zone[38+39].pressrollNote = 0
+pad3d_zone[38+39].dampenedNote = 0
+pad3d_zone[38+39].altNote_linked = false
+pad3d_zone[38+39].pressrollNote_linked = false
+
+#Input 40 settings
+input[40].note = 0
+input[40].channel = 9
+input[40].curve = 0
+input[40].threshold = 30
+input[40].retrigger = 8
+input[40].levelMax = 64
+input[40].minScan = 20
+input[40].type = false
+input[40].autoLevel = true
+input[40].dual = false
+input[40].threeWay = false
+input[40].function = 0
+input[40].gain = 4
+input[40].xtalkLevel = 4
+input[40].xtalkGroup = 0
+input[40].dynTime = 6
+input[40].dynLevel = 12
+input[40].compression = 0
+input[40].shift = 0
+input[40].name = 0
+input[40].altNote = 0
+input[40].pressrollNote = 0
+input[40].altNote_linked = false
+input[40].pressrollNote_linked = false
+
+#Input 40 positional settings
+pos[40].level = 0
+pos[40].low = 5
+pos[40].high = 15
+
+#Input 41 settings
+input[41].note = 0
+input[41].channel = 9
+input[41].curve = 0
+input[41].threshold = 30
+input[41].retrigger = 8
+input[41].levelMax = 64
+input[41].minScan = 20
+input[41].type = false
+input[41].autoLevel = true
+input[41].dual = false
+input[41].threeWay = false
+input[41].function = 0
+input[41].gain = 4
+input[41].xtalkLevel = 4
+input[41].xtalkGroup = 0
+input[41].dynTime = 6
+input[41].dynLevel = 12
+input[41].compression = 0
+input[41].shift = 0
+input[41].name = 0
+input[41].altNote = 0
+input[41].pressrollNote = 0
+input[41].altNote_linked = false
+input[41].pressrollNote_linked = false
+
+#Input 41 positional settings
+pos[41].level = 0
+pos[41].low = 5
+pos[41].high = 15
+
+#Third zone for intputs 40 and 41 settings
+pad3d_zone[40+41].note = 0
+pad3d_zone[40+41].threshold = 30
+pad3d_zone[40+41].altNote = 0
+pad3d_zone[40+41].pressrollNote = 0
+pad3d_zone[40+41].dampenedNote = 0
+pad3d_zone[40+41].altNote_linked = false
+pad3d_zone[40+41].pressrollNote_linked = false
+
+#Input 42 settings
+input[42].note = 0
+input[42].channel = 9
+input[42].curve = 0
+input[42].threshold = 30
+input[42].retrigger = 8
+input[42].levelMax = 64
+input[42].minScan = 20
+input[42].type = false
+input[42].autoLevel = true
+input[42].dual = false
+input[42].threeWay = false
+input[42].function = 0
+input[42].gain = 4
+input[42].xtalkLevel = 4
+input[42].xtalkGroup = 0
+input[42].dynTime = 6
+input[42].dynLevel = 12
+input[42].compression = 0
+input[42].shift = 0
+input[42].name = 0
+input[42].altNote = 0
+input[42].pressrollNote = 0
+input[42].altNote_linked = false
+input[42].pressrollNote_linked = false
+
+#Input 42 positional settings
+pos[42].level = 0
+pos[42].low = 5
+pos[42].high = 15
+
+#Input 43 settings
+input[43].note = 0
+input[43].channel = 9
+input[43].curve = 0
+input[43].threshold = 30
+input[43].retrigger = 8
+input[43].levelMax = 64
+input[43].minScan = 20
+input[43].type = false
+input[43].autoLevel = true
+input[43].dual = false
+input[43].threeWay = false
+input[43].function = 0
+input[43].gain = 4
+input[43].xtalkLevel = 4
+input[43].xtalkGroup = 0
+input[43].dynTime = 6
+input[43].dynLevel = 12
+input[43].compression = 0
+input[43].shift = 0
+input[43].name = 0
+input[43].altNote = 0
+input[43].pressrollNote = 0
+input[43].altNote_linked = false
+input[43].pressrollNote_linked = false
+
+#Input 43 positional settings
+pos[43].level = 0
+pos[43].low = 5
+pos[43].high = 15
+
+#Third zone for intputs 42 and 43 settings
+pad3d_zone[42+43].note = 0
+pad3d_zone[42+43].threshold = 30
+pad3d_zone[42+43].altNote = 0
+pad3d_zone[42+43].pressrollNote = 0
+pad3d_zone[42+43].dampenedNote = 0
+pad3d_zone[42+43].altNote_linked = false
+pad3d_zone[42+43].pressrollNote_linked = false
+
+#Input 44 settings
+input[44].note = 0
+input[44].channel = 9
+input[44].curve = 0
+input[44].threshold = 30
+input[44].retrigger = 8
+input[44].levelMax = 64
+input[44].minScan = 20
+input[44].type = false
+input[44].autoLevel = true
+input[44].dual = false
+input[44].threeWay = false
+input[44].function = 0
+input[44].gain = 4
+input[44].xtalkLevel = 4
+input[44].xtalkGroup = 0
+input[44].dynTime = 6
+input[44].dynLevel = 12
+input[44].compression = 0
+input[44].shift = 0
+input[44].name = 0
+input[44].altNote = 0
+input[44].pressrollNote = 0
+input[44].altNote_linked = false
+input[44].pressrollNote_linked = false
+
+#Input 44 positional settings
+pos[44].level = 0
+pos[44].low = 5
+pos[44].high = 15
+
+#Input 45 settings
+input[45].note = 0
+input[45].channel = 9
+input[45].curve = 0
+input[45].threshold = 30
+input[45].retrigger = 8
+input[45].levelMax = 64
+input[45].minScan = 20
+input[45].type = false
+input[45].autoLevel = true
+input[45].dual = false
+input[45].threeWay = false
+input[45].function = 0
+input[45].gain = 4
+input[45].xtalkLevel = 4
+input[45].xtalkGroup = 0
+input[45].dynTime = 6
+input[45].dynLevel = 12
+input[45].compression = 0
+input[45].shift = 0
+input[45].name = 0
+input[45].altNote = 0
+input[45].pressrollNote = 0
+input[45].altNote_linked = false
+input[45].pressrollNote_linked = false
+
+#Input 45 positional settings
+pos[45].level = 0
+pos[45].low = 5
+pos[45].high = 15
+
+#Third zone for intputs 44 and 45 settings
+pad3d_zone[44+45].note = 0
+pad3d_zone[44+45].threshold = 30
+pad3d_zone[44+45].altNote = 0
+pad3d_zone[44+45].pressrollNote = 0
+pad3d_zone[44+45].dampenedNote = 0
+pad3d_zone[44+45].altNote_linked = false
+pad3d_zone[44+45].pressrollNote_linked = false
+
+#Input 46 settings
+input[46].note = 0
+input[46].channel = 9
+input[46].curve = 0
+input[46].threshold = 30
+input[46].retrigger = 8
+input[46].levelMax = 64
+input[46].minScan = 20
+input[46].type = false
+input[46].autoLevel = true
+input[46].dual = false
+input[46].threeWay = false
+input[46].function = 0
+input[46].gain = 4
+input[46].xtalkLevel = 4
+input[46].xtalkGroup = 0
+input[46].dynTime = 6
+input[46].dynLevel = 12
+input[46].compression = 0
+input[46].shift = 0
+input[46].name = 0
+input[46].altNote = 0
+input[46].pressrollNote = 0
+input[46].altNote_linked = false
+input[46].pressrollNote_linked = false
+
+#Input 46 positional settings
+pos[46].level = 0
+pos[46].low = 5
+pos[46].high = 15
+
+#Input 47 settings
+input[47].note = 0
+input[47].channel = 9
+input[47].curve = 0
+input[47].threshold = 30
+input[47].retrigger = 8
+input[47].levelMax = 64
+input[47].minScan = 20
+input[47].type = false
+input[47].autoLevel = true
+input[47].dual = false
+input[47].threeWay = false
+input[47].function = 0
+input[47].gain = 4
+input[47].xtalkLevel = 4
+input[47].xtalkGroup = 0
+input[47].dynTime = 6
+input[47].dynLevel = 12
+input[47].compression = 0
+input[47].shift = 0
+input[47].name = 0
+input[47].altNote = 0
+input[47].pressrollNote = 0
+input[47].altNote_linked = false
+input[47].pressrollNote_linked = false
+
+#Input 47 positional settings
+pos[47].level = 0
+pos[47].low = 5
+pos[47].high = 15
+
+#Third zone for intputs 46 and 47 settings
+pad3d_zone[46+47].note = 0
+pad3d_zone[46+47].threshold = 30
+pad3d_zone[46+47].altNote = 0
+pad3d_zone[46+47].pressrollNote = 0
+pad3d_zone[46+47].dampenedNote = 0
+pad3d_zone[46+47].altNote_linked = false
+pad3d_zone[46+47].pressrollNote_linked = false
+
+#Input 48 settings
+input[48].note = 0
+input[48].channel = 9
+input[48].curve = 0
+input[48].threshold = 30
+input[48].retrigger = 8
+input[48].levelMax = 64
+input[48].minScan = 20
+input[48].type = false
+input[48].autoLevel = true
+input[48].dual = false
+input[48].threeWay = false
+input[48].function = 0
+input[48].gain = 4
+input[48].xtalkLevel = 4
+input[48].xtalkGroup = 0
+input[48].dynTime = 6
+input[48].dynLevel = 12
+input[48].compression = 0
+input[48].shift = 0
+input[48].name = 0
+input[48].altNote = 0
+input[48].pressrollNote = 0
+input[48].altNote_linked = false
+input[48].pressrollNote_linked = false
+
+#Input 48 positional settings
+pos[48].level = 0
+pos[48].low = 5
+pos[48].high = 15
+
+#Input 49 settings
+input[49].note = 0
+input[49].channel = 9
+input[49].curve = 0
+input[49].threshold = 30
+input[49].retrigger = 8
+input[49].levelMax = 64
+input[49].minScan = 20
+input[49].type = false
+input[49].autoLevel = true
+input[49].dual = false
+input[49].threeWay = false
+input[49].function = 0
+input[49].gain = 4
+input[49].xtalkLevel = 4
+input[49].xtalkGroup = 0
+input[49].dynTime = 6
+input[49].dynLevel = 12
+input[49].compression = 0
+input[49].shift = 0
+input[49].name = 0
+input[49].altNote = 0
+input[49].pressrollNote = 0
+input[49].altNote_linked = false
+input[49].pressrollNote_linked = false
+
+#Input 49 positional settings
+pos[49].level = 0
+pos[49].low = 5
+pos[49].high = 15
+
+#Third zone for intputs 48 and 49 settings
+pad3d_zone[48+49].note = 0
+pad3d_zone[48+49].threshold = 30
+pad3d_zone[48+49].altNote = 0
+pad3d_zone[48+49].pressrollNote = 0
+pad3d_zone[48+49].dampenedNote = 0
+pad3d_zone[48+49].altNote_linked = false
+pad3d_zone[48+49].pressrollNote_linked = false
+
+#Input 50 settings
+input[50].note = 0
+input[50].channel = 9
+input[50].curve = 0
+input[50].threshold = 30
+input[50].retrigger = 8
+input[50].levelMax = 64
+input[50].minScan = 20
+input[50].type = false
+input[50].autoLevel = true
+input[50].dual = false
+input[50].threeWay = false
+input[50].function = 0
+input[50].gain = 4
+input[50].xtalkLevel = 4
+input[50].xtalkGroup = 0
+input[50].dynTime = 6
+input[50].dynLevel = 12
+input[50].compression = 0
+input[50].shift = 0
+input[50].name = 0
+input[50].altNote = 0
+input[50].pressrollNote = 0
+input[50].altNote_linked = false
+input[50].pressrollNote_linked = false
+
+#Input 50 positional settings
+pos[50].level = 0
+pos[50].low = 5
+pos[50].high = 15
+
+#Input 51 settings
+input[51].note = 0
+input[51].channel = 9
+input[51].curve = 0
+input[51].threshold = 30
+input[51].retrigger = 8
+input[51].levelMax = 64
+input[51].minScan = 20
+input[51].type = false
+input[51].autoLevel = true
+input[51].dual = false
+input[51].threeWay = false
+input[51].function = 0
+input[51].gain = 4
+input[51].xtalkLevel = 4
+input[51].xtalkGroup = 0
+input[51].dynTime = 6
+input[51].dynLevel = 12
+input[51].compression = 0
+input[51].shift = 0
+input[51].name = 0
+input[51].altNote = 0
+input[51].pressrollNote = 0
+input[51].altNote_linked = false
+input[51].pressrollNote_linked = false
+
+#Input 51 positional settings
+pos[51].level = 0
+pos[51].low = 5
+pos[51].high = 15
+
+#Third zone for intputs 50 and 51 settings
+pad3d_zone[50+51].note = 0
+pad3d_zone[50+51].threshold = 30
+pad3d_zone[50+51].altNote = 0
+pad3d_zone[50+51].pressrollNote = 0
+pad3d_zone[50+51].dampenedNote = 0
+pad3d_zone[50+51].altNote_linked = false
+pad3d_zone[50+51].pressrollNote_linked = false
+
+#Input 52 settings
+input[52].note = 0
+input[52].channel = 9
+input[52].curve = 0
+input[52].threshold = 30
+input[52].retrigger = 8
+input[52].levelMax = 64
+input[52].minScan = 20
+input[52].type = false
+input[52].autoLevel = true
+input[52].dual = false
+input[52].threeWay = false
+input[52].function = 0
+input[52].gain = 4
+input[52].xtalkLevel = 4
+input[52].xtalkGroup = 0
+input[52].dynTime = 6
+input[52].dynLevel = 12
+input[52].compression = 0
+input[52].shift = 0
+input[52].name = 0
+input[52].altNote = 0
+input[52].pressrollNote = 0
+input[52].altNote_linked = false
+input[52].pressrollNote_linked = false
+
+#Input 52 positional settings
+pos[52].level = 0
+pos[52].low = 5
+pos[52].high = 15
+
+#Input 53 settings
+input[53].note = 0
+input[53].channel = 9
+input[53].curve = 0
+input[53].threshold = 30
+input[53].retrigger = 8
+input[53].levelMax = 64
+input[53].minScan = 20
+input[53].type = false
+input[53].autoLevel = true
+input[53].dual = false
+input[53].threeWay = false
+input[53].function = 0
+input[53].gain = 4
+input[53].xtalkLevel = 4
+input[53].xtalkGroup = 0
+input[53].dynTime = 6
+input[53].dynLevel = 12
+input[53].compression = 0
+input[53].shift = 0
+input[53].name = 0
+input[53].altNote = 0
+input[53].pressrollNote = 0
+input[53].altNote_linked = false
+input[53].pressrollNote_linked = false
+
+#Input 53 positional settings
+pos[53].level = 0
+pos[53].low = 5
+pos[53].high = 15
+
+#Third zone for intputs 52 and 53 settings
+pad3d_zone[52+53].note = 0
+pad3d_zone[52+53].threshold = 30
+pad3d_zone[52+53].altNote = 0
+pad3d_zone[52+53].pressrollNote = 0
+pad3d_zone[52+53].dampenedNote = 0
+pad3d_zone[52+53].altNote_linked = false
+pad3d_zone[52+53].pressrollNote_linked = false
+
+#Input 54 settings
+input[54].note = 0
+input[54].channel = 9
+input[54].curve = 0
+input[54].threshold = 30
+input[54].retrigger = 8
+input[54].levelMax = 64
+input[54].minScan = 20
+input[54].type = false
+input[54].autoLevel = true
+input[54].dual = false
+input[54].threeWay = false
+input[54].function = 0
+input[54].gain = 4
+input[54].xtalkLevel = 4
+input[54].xtalkGroup = 0
+input[54].dynTime = 6
+input[54].dynLevel = 12
+input[54].compression = 0
+input[54].shift = 0
+input[54].name = 0
+input[54].altNote = 0
+input[54].pressrollNote = 0
+input[54].altNote_linked = false
+input[54].pressrollNote_linked = false
+
+#Input 54 positional settings
+pos[54].level = 0
+pos[54].low = 5
+pos[54].high = 15
+
+#Input 55 settings
+input[55].note = 0
+input[55].channel = 9
+input[55].curve = 0
+input[55].threshold = 30
+input[55].retrigger = 8
+input[55].levelMax = 64
+input[55].minScan = 20
+input[55].type = false
+input[55].autoLevel = true
+input[55].dual = false
+input[55].threeWay = false
+input[55].function = 0
+input[55].gain = 4
+input[55].xtalkLevel = 4
+input[55].xtalkGroup = 0
+input[55].dynTime = 6
+input[55].dynLevel = 12
+input[55].compression = 0
+input[55].shift = 0
+input[55].name = 0
+input[55].altNote = 0
+input[55].pressrollNote = 0
+input[55].altNote_linked = false
+input[55].pressrollNote_linked = false
+
+#Input 55 positional settings
+pos[55].level = 0
+pos[55].low = 5
+pos[55].high = 15
+
+#Third zone for intputs 54 and 55 settings
+pad3d_zone[54+55].note = 0
+pad3d_zone[54+55].threshold = 30
+pad3d_zone[54+55].altNote = 0
+pad3d_zone[54+55].pressrollNote = 0
+pad3d_zone[54+55].dampenedNote = 0
+pad3d_zone[54+55].altNote_linked = false
+pad3d_zone[54+55].pressrollNote_linked = false
+
+#Curve 1 settings
+curve[1].P1 = 2
+curve[1].P2 = 31
+curve[1].P3 = 63
+curve[1].P4 = 95
+curve[1].P5 = 127
+curve[1].P6 = 159
+curve[1].P7 = 191
+curve[1].P8 = 223
+curve[1].P9 = 255
+
+#Curve 2 settings
+curve[2].P1 = 2
+curve[2].P2 = 55
+curve[2].P3 = 93
+curve[2].P4 = 126
+curve[2].P5 = 156
+curve[2].P6 = 184
+curve[2].P7 = 209
+curve[2].P8 = 233
+curve[2].P9 = 255
+
+#Curve 3 settings
+curve[3].P1 = 2
+curve[3].P2 = 78
+curve[3].P3 = 122
+curve[3].P4 = 157
+curve[3].P5 = 184
+curve[3].P6 = 208
+curve[3].P7 = 226
+curve[3].P8 = 243
+curve[3].P9 = 255
+
+#Curve 4 settings
+curve[4].P1 = 2
+curve[4].P2 = 103
+curve[4].P3 = 157
+curve[4].P4 = 190
+curve[4].P5 = 212
+curve[4].P6 = 228
+curve[4].P7 = 239
+curve[4].P8 = 248
+curve[4].P9 = 255
+
+#Curve 5 settings
+curve[5].P1 = 2
+curve[5].P2 = 127
+curve[5].P3 = 191
+curve[5].P4 = 223
+curve[5].P5 = 239
+curve[5].P6 = 247
+curve[5].P7 = 251
+curve[5].P8 = 253
+curve[5].P9 = 255
+
+#Curve 6 settings
+curve[6].P1 = 2
+curve[6].P2 = 13
+curve[6].P3 = 30
+curve[6].P4 = 48
+curve[6].P5 = 72
+curve[6].P6 = 99
+curve[6].P7 = 134
+curve[6].P8 = 178
+curve[6].P9 = 255
+
+#Curve 7 settings
+curve[7].P1 = 2
+curve[7].P2 = 3
+curve[7].P3 = 5
+curve[7].P4 = 9
+curve[7].P5 = 17
+curve[7].P6 = 33
+curve[7].P7 = 65
+curve[7].P8 = 129
+curve[7].P9 = 255
+
+#Curve 8 settings
+curve[8].P1 = 2
+curve[8].P2 = 86
+curve[8].P3 = 120
+curve[8].P4 = 125
+curve[8].P5 = 127
+curve[8].P6 = 130
+curve[8].P7 = 136
+curve[8].P8 = 168
+curve[8].P9 = 255
+
+#Curve 9 settings
+curve[9].P1 = 2
+curve[9].P2 = 4
+curve[9].P3 = 9
+curve[9].P4 = 32
+curve[9].P5 = 127
+curve[9].P6 = 211
+curve[9].P7 = 239
+curve[9].P8 = 253
+curve[9].P9 = 255
+
+#Curve 10 settings
+curve[10].P1 = 32
+curve[10].P2 = 72
+curve[10].P3 = 112
+curve[10].P4 = 152
+curve[10].P5 = 192
+curve[10].P6 = 232
+curve[10].P7 = 255
+curve[10].P8 = 255
+curve[10].P9 = 255
+
+#Curve 11 settings
+curve[11].P1 = 96
+curve[11].P2 = 128
+curve[11].P3 = 160
+curve[11].P4 = 192
+curve[11].P5 = 224
+curve[11].P6 = 255
+curve[11].P7 = 255
+curve[11].P8 = 255
+curve[11].P9 = 255
+
+#Curve 12 settings
+curve[12].P1 = 255
+curve[12].P2 = 255
+curve[12].P3 = 255
+curve[12].P4 = 255
+curve[12].P5 = 255
+curve[12].P6 = 255
+curve[12].P7 = 255
+curve[12].P8 = 255
+curve[12].P9 = 255
+
+#Curve 13 settings
+curve[13].P1 = 2
+curve[13].P2 = 32
+curve[13].P3 = 64
+curve[13].P4 = 96
+curve[13].P5 = 128
+curve[13].P6 = 160
+curve[13].P7 = 192
+curve[13].P8 = 224
+curve[13].P9 = 255
+
+#Curve 14 settings
+curve[14].P1 = 2
+curve[14].P2 = 32
+curve[14].P3 = 64
+curve[14].P4 = 96
+curve[14].P5 = 128
+curve[14].P6 = 160
+curve[14].P7 = 192
+curve[14].P8 = 224
+curve[14].P9 = 255
+
+#Curve 15 settings
+curve[15].P1 = 2
+curve[15].P2 = 32
+curve[15].P3 = 64
+curve[15].P4 = 96
+curve[15].P5 = 128
+curve[15].P6 = 160
+curve[15].P7 = 192
+curve[15].P8 = 224
+curve[15].P9 = 255
+
+#Curve 16 settings
+curve[16].P1 = 2
+curve[16].P2 = 32
+curve[16].P3 = 64
+curve[16].P4 = 96
+curve[16].P5 = 128
+curve[16].P6 = 160
+curve[16].P7 = 192
+curve[16].P8 = 224
+curve[16].P9 = 255
+
+#Custom Pads Names
+customNameCount = 32
+customName[1] = Cymbal1
+customName[2] = Cymbal2
+customName[3] = Cymbal3
+customName[4] = Cymbal4
+customName[5] = Cymbal5
+customName[6] = Cymbal6
+customName[7] = Ride1
+customName[8] = Ride2
+customName[9] = Flexi1
+customName[10] = Flexi2
+customName[11] = Flexi3
+customName[12] = Custom11
+customName[13] = Custom12
+customName[14] = Custom13
+customName[15] = Custom14
+customName[16] = Custom15
+customName[17] = Custom16
+customName[18] = Custom17
+customName[19] = Custom18
+customName[20] = Custom19
+customName[21] = Custom20
+customName[22] = Custom21
+customName[23] = Custom22
+customName[24] = Custom23
+customName[25] = Custom24
+customName[26] = Custom25
+customName[27] = Custom26
+customName[28] = Custom27
+customName[29] = Custom28
+customName[30] = Custom29
+customName[31] = Custom30
+customName[32] = Custom31
